@@ -1,10 +1,10 @@
 import { ButtonUI, LinkUI } from "./style";
 
 interface AtomButtonType {
-  btnType: string;
-  btnName: string;
-  onClick: any | undefined;
-  linkURL: string | undefined;
+  btnType?: string | undefined;
+  btnName?: string | undefined;
+  onClick?: () => void | undefined;
+  linkURL?: string | undefined;
 }
 
 const AtomButton = ({ btnType, btnName, onClick, linkURL }: AtomButtonType) => {

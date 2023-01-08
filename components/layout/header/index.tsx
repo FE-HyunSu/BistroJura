@@ -12,12 +12,7 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <AtomButton
-                  btnType={`box`}
-                  btnName={`LOGIN`}
-                  onClick={() => console.log("dfd")}
-                  linkURL={undefined}
-                ></AtomButton>
+                <AtomButton btnType={`box`} btnName={`LOGIN`}></AtomButton>
               </li>
             </ul>
           </nav>
