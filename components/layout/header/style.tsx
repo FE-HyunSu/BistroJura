@@ -19,7 +19,7 @@ export const HeaderBox = styled.header`
     h1 {
       flex: 1 auto;
       a {
-        display: block;
+        display: inline-block;
         height: 100%;
         text-decoration: none;
         font-size: 1.4rem;
