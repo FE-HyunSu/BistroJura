@@ -1,4 +1,5 @@
 import { HeaderBox } from "./style";
+import AtomButton from "../../../atoms/AtomButton";
 
 const Header = () => {
   return (
@@ -11,13 +12,12 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <a href="">menu1</a>
-              </li>
-              <li>
-                <a href="">menu2</a>
-              </li>
-              <li>
-                <a href="">menu3</a>
+                <AtomButton
+                  btnType={`box`}
+                  btnName={`LOGIN`}
+                  onClick={() => console.log("dfd")}
+                  linkURL={undefined}
+                ></AtomButton>
               </li>
             </ul>
           </nav>
