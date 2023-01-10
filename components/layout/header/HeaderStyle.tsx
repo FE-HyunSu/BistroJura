@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderBox = styled.header`
+export const HeaderUI = styled.header`
   display: block;
   position: relative;
   width: 100%;

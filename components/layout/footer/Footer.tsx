@@ -1,9 +1,9 @@
-import { FooterBox } from "./style";
+import { FooterUI } from "./FooterStyle";
 
 const Footer = () => {
   return (
     <>
-      <FooterBox>
+      <FooterUI>
         <p>
           KHS. ALL RIGHT RESERVED.
           <a href="https://github.com/FE-HyunSu" target="_black">
@@ -22,7 +22,7 @@ const Footer = () => {
             </svg>
           </a>
         </p>
-      </FooterBox>
+      </FooterUI>
     </>
   );
 };

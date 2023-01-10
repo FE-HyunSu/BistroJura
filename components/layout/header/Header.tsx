@@ -1,10 +1,10 @@
-import { HeaderBox } from "./style";
+import { HeaderUI } from "./HeaderStyle";
 import Button from "../../../atoms/button/Button";
 
 const Header = () => {
   return (
     <>
-      <HeaderBox>
+      <HeaderUI>
         <div className="inner">
           <h1>
             <a href="/">BISTROJURA</a>
@@ -17,7 +17,7 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-      </HeaderBox>
+      </HeaderUI>
     </>
   );
 };
