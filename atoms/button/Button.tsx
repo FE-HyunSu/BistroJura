@@ -1,13 +1,13 @@
-import { ButtonUI, LinkUI } from "./style";
+import { ButtonUI, LinkUI } from "./ButtonStyle";
 
-interface AtomButtonType {
+interface ButtonType {
   btnType?: string | undefined;
   btnName?: string | undefined;
   onClick?: () => void | undefined;
   linkURL?: string | undefined;
 }
 
-const AtomButton = ({ btnType, btnName, onClick, linkURL }: AtomButtonType) => {
+const Button = ({ btnType, btnName, onClick, linkURL }: ButtonType) => {
   return (
     <>
       {btnType === `box` ? (
@@ -20,4 +20,4 @@ const AtomButton = ({ btnType, btnName, onClick, linkURL }: AtomButtonType) => {
     </>
   );
 };
-export default AtomButton;
+export default Button;

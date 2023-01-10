@@ -1,5 +1,5 @@
 import { HeaderBox } from "./style";
-import AtomButton from "../../../atoms/AtomButton";
+import Button from "../../../atoms/button/Button";
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <AtomButton btnType={`box`} btnName={`LOGIN`}></AtomButton>
+                <Button btnType={`box`} btnName={`LOGIN`}></Button>
               </li>
             </ul>
           </nav>
